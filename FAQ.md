@@ -68,7 +68,7 @@ Electron (Chromium, o motor do Chrome). Cada conta roda numa sessão separada.
 **Simples → seção Hunts**: ordene por **Sugerido** e escolha o atacante no **"caçar com"**. Com Ditto no time, aparece a melhor transformação por elemento. Cada hunt mostra kills/h e XP/h estimados, que se ajustam sozinhos conforme o app mede as hunts que você farma.
 
 ### Tenho um Shiny Ditto: onde caço e em que viro?
-**☰ Opções → ✨ Ditto** (logo abaixo da Tierlist). Escolha shiny ou comum, o nível do Ditto e o nível da conta (qualidade e IV são fixos no jogo, o app já usa os certos); **Meu Ditto…** preenche com o Ditto do seu time. **Por hunt** lista as hunts da melhor pra pior, cada uma com a forma certa pra ela; **Por tipo** mostra a melhor forma de cada elemento. Só entram formas que o jogo deixa o Ditto copiar (o shiny só vira espécie com forma shiny), sem TM, e com o debuff do jogo na conta.
+**☰ Opções → 🏆 Meta → Seu Pokémon** (tecla G). Escolha o Ditto do seu time em "do meu time…" ou digite Ditto (ou Shiny Ditto) e o nível: qualidade e IV são fixos no jogo e o app já usa os certos. A lista traz as hunts da melhor pra pior, cada uma com a forma certa pra ela. Só entram formas que o jogo deixa o Ditto copiar (o shiny só vira espécie com forma shiny), sem TM, e com o debuff do jogo na conta. No Simples, com Ditto no time, aparece também a melhor transformação por elemento.
 
 ### O app está pesado. Como deixo mais leve?
 Quase todo o peso vem dos jogos desenhando o mapa, um por conta aberta; os números, alertas e estatísticas do app gastam pouco. Do que mais alivia pro que menos:
