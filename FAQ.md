@@ -65,16 +65,16 @@ Electron (Chromium, o motor do Chrome). Cada conta roda numa sessão separada.
 ## Uso diário
 
 ### Onde vejo a sugestão de hunts?
-**Simples → seção Hunts**: ordene por **Sugerido** e escolha o atacante no **"caçar com"**. Com Ditto no time, aparece a melhor transformação por elemento. Cada hunt mostra kills/h e XP/h estimados, que se ajustam sozinhos conforme o app mede as hunts que você farma.
+**Cockpit → seção Hunts**: ordene por **Sugerido** e escolha o atacante no **"caçar com"**. Com Ditto no time, aparece a melhor transformação por elemento. Cada hunt mostra kills/h e XP/h estimados, que se ajustam sozinhos conforme o app mede as hunts que você farma.
 
 ### Tenho um Shiny Ditto: onde caço e em que viro?
-**☰ Opções → 🏆 Meta → Seu Pokémon** (tecla G). Escolha o Ditto do seu time em "do meu time…" ou digite Ditto (ou Shiny Ditto) e o nível: qualidade e IV são fixos no jogo e o app já usa os certos. A lista traz as hunts da melhor pra pior, cada uma com a forma certa pra ela. Só entram formas que o jogo deixa o Ditto copiar (o shiny só vira espécie com forma shiny), sem TM, e com o debuff do jogo na conta. No Simples, com Ditto no time, aparece também a melhor transformação por elemento.
+**☰ Opções → 🏆 Meta → Seu Pokémon** (tecla G). Escolha o Ditto do seu time em "do meu time…" ou digite Ditto (ou Shiny Ditto) e o nível: qualidade e IV são fixos no jogo e o app já usa os certos. A lista traz as hunts da melhor pra pior, cada uma com a forma certa pra ela. Só entram formas que o jogo deixa o Ditto copiar (o shiny só vira espécie com forma shiny), sem TM, e com o debuff do jogo na conta. No Cockpit, com Ditto no time, aparece também a melhor transformação por elemento.
 
 ### O app está pesado. Como deixo mais leve?
 Quase todo o peso vem dos jogos desenhando o mapa, um por conta aberta; os números, alertas e estatísticas do app gastam pouco. Do que mais alivia pro que menos:
 
-- 🍃 Simples (barra do topo, ou tecla C com o clique fora do jogo): esconde o jogo e mostra só os números. O jogo cai pra 1 quadro por segundo e o farm continua, porque roda no servidor. Ele começa desligado toda vez que o app abre (o login e o captcha precisam do jogo à vista), então ligue depois que as contas entrarem.
-- Minimizar ou mandar pra bandeja: desde a 1.5.27 os jogos entram sozinhos no mesmo modo leve do Simples enquanto a janela está escondida, e voltam ao normal quando você abre.
+- 🕹 Cockpit (barra do topo, ou tecla C com o clique fora do jogo): esconde o jogo e mostra só os números. O jogo cai pra 1 quadro por segundo e o farm continua, porque roda no servidor. Ele começa desligado toda vez que o app abre (o login e o captcha precisam do jogo à vista), então ligue depois que as contas entrarem.
+- Minimizar ou mandar pra bandeja: desde a 1.5.27 os jogos entram sozinhos no mesmo modo leve do Cockpit enquanto a janela está escondida, e voltam ao normal quando você abre.
 - 🔢 Painéis (☰ Opções): cada painel é um jogo inteiro rodando. Clique no número de painéis que você quer, de 1 a 4. Pôr painéis só abre os novos, e tirar fecha os últimos da grade, então deixe as contas que você usa nos primeiros lugares do 👤 Treinadores. As contas que ficam na tela seguem farmando. O painel tirado fecha de verdade, e a senha dele continua salva.
 - ⚡ Eco (☰ Opções): segura cada jogo em 15 quadros por segundo. Já vem ligado; se o botão estiver como ⚡ Eco off, clique pra religar.
 - 📊 Painel: feche quando não estiver olhando, principalmente na aba Σ. Aberto, ele relê as contas a cada 2 segundos.
@@ -82,7 +82,7 @@ Quase todo o peso vem dos jogos desenhando o mapa, um por conta aberta; os núme
 Mudo, grade e proporção não deixam o app mais leve.
 
 ### E nas configurações do próprio jogo?
-Ajudam quando você deixa o jogo à vista (com o 🍃 Simples ligado quase não mudam nada, porque o jogo nem aparece). Em cada painel, no menu de ícones do jogo, clique no ícone **Configurações**, escolha **Configurações** de novo e fique na aba **Vídeo**:
+Ajudam quando você deixa o jogo à vista (com o 🕹 Cockpit ligado quase não mudam nada, porque o jogo nem aparece). Em cada painel, no menu de ícones do jogo, clique no ícone **Configurações**, escolha **Configurações** de novo e fique na aba **Vídeo**:
 
 - Modo Leve: ⚡ Ligado. Meia resolução e cenário parado (os pokémon continuam animados). Já coloca o FPS em 30 e a renderização em Default.
 - Modo de batalha: 🃏 Cartas. Na hunt, troca o mapa com personagens andando por herói e inimigos sem animação; nas cidades o jogo continua em 3D.
@@ -91,10 +91,10 @@ Ajudam quando você deixa o jogo à vista (com o 🍃 Simples ligado quase não 
 Com o 🧼 Limpar jogo ligado, o menu de ícones só aparece quando o mouse passa por cima; se ele sumiu de vez, aperte F2 no painel. Cada painel guarda a própria configuração, então repita nas contas que você usa. O 🧹 do Treinadores apaga essa configuração junto com os outros dados do jogo.
 
 ### O chat do jogo some quando eu abro
-O app esconde o chat do jogo por padrão, pra sobrar tela: o botão em **☰ Opções** aparece como **💬 Chat oculto**. Clique nele pra virar **💬 Chat visível** e o chat aparece em todos os painéis. Até a 1.5.26, abrir pelo botão 💬 Chat do próprio jogo não adiantava: o app fechava de novo na mesma hora. Desde a 1.5.27 esse botão abre o chat naquele painel, até você mexer no 💬 do app ou ligar o 🍃 Simples.
+O app esconde o chat do jogo por padrão, pra sobrar tela: o botão em **☰ Opções** aparece como **💬 Chat oculto**. Clique nele pra virar **💬 Chat visível** e o chat aparece em todos os painéis. Até a 1.5.26, abrir pelo botão 💬 Chat do próprio jogo não adiantava: o app fechava de novo na mesma hora. Desde a 1.5.27 esse botão abre o chat naquele painel, até você mexer no 💬 do app ou ligar o 🕹 Cockpit.
 
 ### Mudo um filtro e nada acontece / painel demora
-Bug corrigido na **1.5.11**: o painel segurava a atualização enquanto o foco ficava no seletor. Até a 1.5.26 o mesmo acontecia ao marcar um alerta ou uma opção do webhook na engrenagem do Simples. Fora isso, o Simples atualiza a cada 10s de propósito, pra pesar menos.
+Bug corrigido na **1.5.11**: o painel segurava a atualização enquanto o foco ficava no seletor. Até a 1.5.26 o mesmo acontecia ao marcar um alerta ou uma opção do webhook na engrenagem do Cockpit. Fora isso, o Cockpit atualiza a cada 10s de propósito, pra pesar menos.
 
 ### Não consigo mudar a pokébola!
 É o "sabonete": o botão **🧼 Limpar jogo** esconde o Auto-Helper do jogo, que é onde fica o seletor de pokébola. Desde a 1.5.13 basta **passar o mouse** no canto onde ele fica que ele aparece; em versões antigas, desligue o 🧼 na barra do topo, troque a bola e ligue de novo.
@@ -103,13 +103,13 @@ Bug corrigido na **1.5.11**: o painel segurava a atualização enquanto o foco f
 **Opções → Scripts**, desmarque a caixinha. Desde a 1.5.11 isso recarrega as contas e o script para na hora. Antes: desmarque e clique em **⟳ Atualizar tudo**.
 
 ### Como exporto os logs de hunt?
-**Simples → Hoje → "⬇ Hunts (N)"**. Baixa duas planilhas (hunts e drops) que abrem direto no Excel. O app guarda as últimas 150 hunts; as mais antigas ficam em `%APPDATA%\pokepilot\backups\hunts-historico.csv` (e `hunts-historico-drops.csv` pros drops por item).
+**Cockpit → Hoje → "⬇ Hunts (N)"**. Baixa duas planilhas (hunts e drops) que abrem direto no Excel. O app guarda as últimas 150 hunts; as mais antigas ficam em `%APPDATA%\pokepilot\backups\hunts-historico.csv` (e `hunts-historico-drops.csv` pros drops por item).
 
 ### O ouro da sessão não bate com o Hunt Analyzer do jogo
 A partir da 1.5.16 bate: o app passou a usar os números do próprio servidor do jogo, os mesmos que o Hunt Analyzer mostra. Antes ele refazia a conta por fora e errava em coisas que só o servidor sabe (qual pokébola foi usada em cada arremesso, se o pokémon novo veio de captura ou do mercado, se a poção saiu por uso ou por venda). Se ainda houver diferença, lembre que o relógio do Hunt Analyzer zera ao trocar de hunt e no 🗑 dele, e nenhum dos dois mede o ouro real da carteira: os dois mostram o valor do que caiu, a preço de NPC. Desde a 1.5.27 o app também conta as Rare Pokemon Picture (profissão fotógrafo), que o Hunt Analyzer soma à parte. O Hunt Analyzer já vem com **Considerar preço dos itens no Mercado** marcado, e com ele marcado soma as Rare Pokemon Picture pela média do Mercado; o app usa sempre o preço de NPC. Pra bater, desmarque a caixa. O 🗑 zera a sessão, mas o gold de Hoje no histórico do app fica (até a 1.5.26 ele era apagado).
 
 ### O app recarregou um painel e a conta ficou parada na cidade
-É o jogo: toda vez que a página recarrega, ele coloca a conta em Cerulean. O app recarrega sozinho quando um painel trava ou cai. Em **☰ Opções** existe o **↩ Voltar pra hunt** (experimental, desligado por padrão): ligado, o app manda a conta de volta pra mesma hunt 12 segundos depois do recarregamento (e repete a cada 12 s, até 3 vezes, enquanto não houver kill), desde que ela tenha matado algo nos últimos 10 minutos. A tela do jogo pode continuar mostrando a cidade enquanto a conta farma; os números do Painel e do Simples são os do servidor.
+É o jogo: toda vez que a página recarrega, ele coloca a conta em Cerulean. O app recarrega sozinho quando um painel trava ou cai. Em **☰ Opções** existe o **↩ Voltar pra hunt** (experimental, desligado por padrão): ligado, o app manda a conta de volta pra mesma hunt 12 segundos depois do recarregamento (e repete a cada 12 s, até 3 vezes, enquanto não houver kill), desde que ela tenha matado algo nos últimos 10 minutos. A tela do jogo pode continuar mostrando a cidade enquanto a conta farma; os números do Painel e do Cockpit são os do servidor.
 
 ### A conta fica parada na hunt e aparece "Sincronizando…"
 O "Sincronizando…" é do jogo: aparece quando a janela volta a ficar à vista e some em até 4 segundos, assim que o servidor manda a hunt. Se o mapa continua parado e não há kill, a hunt parou no servidor. Isso pode acontecer quando o servidor reinicia (o jogo mostra "Servidor reiniciado" se você tinha boost e espera você clicar em Atualizar) ou quando a hunt para de chegar com a conexão aberta. Com o **↩ Voltar pra hunt** ligado em **☰ Opções**, desde a 1.5.28 o app resolve sozinho: clica em Atualizar por você e, depois de 10 minutos sem kill e sem atualização da hunt, pede a hunt de novo e, se não adiantar, recarrega o painel e volta pra hunt. São até 3 tentativas a cada 6 horas por conta, todas anotadas no 🐞 Erros.
