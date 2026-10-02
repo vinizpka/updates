@@ -12,11 +12,11 @@ Guia curto do que cada coisa faz. Se você só quer resolver um problema pontual
 | **📊 Painel** | A barra lateral com os números de uma conta por vez (detalhes abaixo) |
 | **🍃 Simples** | Esconde o jogo e mostra só os números das 4 contas. Gasta bem menos do PC |
 | **IV's** | Abre a calculadora de IV. Passe o mouse num pokémon dentro do jogo que ela preenche sozinha |
-| **☰ Opções** | Tudo o mais: Hunt, Tierlist, Ditto, Scripts, Alertas, Venda protegida, Eco, FAQ... |
+| **☰ Opções** | Tudo o mais: Hunt, Meta, Scripts, Alertas, Venda protegida, Eco, FAQ... |
 
 **Esc** fecha o card de IV e tira o painel da tela cheia. Com o foco dentro do jogo, aperte **Esc duas vezes** seguidas: um Esc só fica pro jogo (fechar a bolsa, um diálogo) sem mexer no painel.
 
-Atalhos de teclado (só quando o foco está no app, não dentro do jogo, e com nenhuma janela do app aberta): **H** Hunt, **C** Simples, **L** Limpar jogo, **R** Atualizar, **T** Treinadores, **G** Tierlist, **D** Ditto, **O** Opções, **M** menu do jogo, **E** Eco, **A** Alertas.
+Atalhos de teclado (só quando o foco está no app, não dentro do jogo, e com nenhuma janela do app aberta): **H** Hunt, **C** Simples, **L** Limpar jogo, **R** Atualizar, **T** Treinadores, **G** Meta, **O** Opções, **M** menu do jogo, **E** Eco, **A** Alertas.
 
 ## 📊 Painel: a barra lateral
 
@@ -43,23 +43,16 @@ O jogo some e ficam só os números das 4 contas. Serve pra deixar farmando gast
 - **Inventário**: soma a mochila **e o depósito** das 4 contas
 - **Tendência**: gráficos de gold/h e XP/h, e de gold/dia dos últimos 30 dias
 
-## 🏆 Tierlist (Opções, ou tecla G)
+## 🏆 Meta (Opções, ou tecla G)
 
-Ranking de todas as espécies do jogo por elemento, nota de 0 a 100.
+Ranking de todas as espécies base do jogo, todas no nível escolhido (o padrão é o máximo), com IV 32 em cada atributo e qualidade 1,8, a mesma régua do piwdex.com.br/meta. Quatro abas:
 
-No topo, **XP/h** ou **Gold/h** escolhe o que a nota mede. Gold/h é kills/h do modelo vezes o loot esperado por kill a preço de NPC (o mesmo preço que o Hunt Analyzer do jogo usa), sem captura, supply nem bônus de loot; em hunt onde o valor vem de drop raro, a média demora a aparecer. O chip **🎯 Pokémon** inverte a pergunta: escolha um Pokémon do seu time (vem com o nível, a qualidade, o IV e os TMs dele) ou digite o nome de qualquer um, e a lista mostra as melhores hunts pra ele até o seu nível, com kills/h, XP/h e gold/h estimados em cada linha. Com um Ditto, cada hunt mostra também a forma certa pra ela.
+- **PvP**: cada espécie luta contra todas as outras. Contra cada rival, cada lado usa o golpe natural que dá mais dano (tabela de tipos do jogo, STAB ×1,5, físico contra Defesa e especial contra Def. Esp., vida = HP × 12) e vence quem precisa de menos golpes pra derrubar o outro; o mesmo número é empate e vale meia vitória. **Vence** é a porcentagem de lutas ganhas; **ataque** é quanto da vida do rival sai por golpe, e **defesa**, quanto da sua sai por golpe recebido (as duas na média contra todos). Lendários lutam como rivais mas ficam fora da lista. Filtre por físicos ou especiais, por tipo (os quadradinhos coloridos) ou busque por Pokémon ou golpe. Clique numa linha pra ver os atributos base, o placar, pra quem ele perde e os golpes com o índice atributo × poder.
+- **Hunt**: a hunt que rende mais **gold/h** (ou **XP/h**) pra cada espécie até o nível escolhido, no mesmo modelo do Sugerido do Simples (kills/h pelo dano e pelo tempo por golpe calibrado com as suas medições, vezes o loot esperado a preço de NPC). Filtre por Outland ou Orre. O detalhe mostra as 5 melhores hunts, quanto o disco de TM do tipo dele acrescenta e o botão **Ver no Sugerido do Simples**.
+- **Hunt com TM**: o mesmo, contando o disco elemental do tipo do Pokémon (só estágio final aprende).
+- **Seu Pokémon**: escolha um Pokémon do seu time (vem com o nível, a qualidade, o IV e os TMs reais) ou digite qualquer espécie: a lista mostra as melhores hunts pra ele até o nível da conta. Com **Ditto** (comum ou shiny), cada hunt vem com a melhor forma pra virar, respeitando o que o jogo deixa o Ditto copiar.
 
-Escolha **seu nível** no topo da tierlist (vai até 3000): só entram as hunts que você alcança e só as espécies que dá pra ter nesse nível, caçando ou evoluindo. Cada pokémon é avaliado no nível de cada hunt, pra comparação entre espécies ser justa. A caixinha **com TM** conta os TMs como o jogo faz: o TM elemental é um golpe extra em área que dispara sozinho a cada 10 s (só do próprio tipo, poder 300) e o AoE TM faz o golpe normal acertar todos os selvagens do quadro; os dois convivem no mesmo pokémon. Fica desligada por padrão porque TM é item. A densidade da hunt (selvagens por salva) vem das suas medições; sem medição, 2. O golpe **físico** enfrenta a defesa física de cada hunt, o **especial** a defesa especial, e a **vida** do defensor segura o ritmo. A aba **Geral** compara todos os elementos juntos, e nela a nota é o rendimento somado em todas as hunts (quem rende em todo lugar vale mais que quem só brilha numa fraqueza ×4).
-
-Na linha: **FÍS/ESP** é a categoria do golpe, **folga ×N** é quanto dano sobra além do necessário pra matar de um golpe, e **ORRE | OUT** são as melhores hunts em cada região, cada uma com sua nota.
-
-Como a nota é calculada: o dano do melhor golpe segue as regras do próprio jogo (efetividade amplificada na hunt: ×2 vira ×2.5, ×4 vira ×5.5, resistências dividem por 1.5; STAB ×1.5 no golpe do tipo do pokémon; golpe físico contra a Defesa e especial contra a Defesa Especial do selvagem), e a vida do selvagem diz quantos golpes o kill leva. Matar de um golpe no limite não vale o mesmo que matar com folga: a nota usa a chance de matar de um golpe, então dois pokémon que "matam de um" não empatam mais em 100. A nota final é XP por hora: golpes esperados por kill × 2,1 s por golpe + 3,1 s por kill (tempos medidos: andar até o próximo selvagem e o spawn pesam tanto quanto o golpe), e XP da hunt por kill. O app se calibra sozinho com o que você farma: mede o dano real do seu líder em % da vida do selvagem e os kills/h de cada hunt, e ajusta o modelo (a dica no topo da tierlist e do painel do Ditto mostra o estado da calibração). A medição roda sozinha com o app aberto, em qualquer tela e até minimizado: cada conta que passa 5 minutos numa hunt vira uma amostra de dano, contando só os golpes do líder atual (se você trocar o líder, ou ele evoluir, no meio da sessão, aquela hunt só volta a ser medida depois de você trocar de hunt ou usar o ⟲ Zerar do app; o 🗑 do Hunt Analyzer do jogo não apaga os golpes já somados), e com 3 amostras (contas ou hunts diferentes, guardadas de uma abertura pra outra) a nota passa a usar o seu dano. Os tempos por golpe e por kill saem do padrão quando você tem 6 ou mais hunts medidas com números de golpes por kill diferentes. Nas hunts que você já mediu, a espera por kill (respawn) é a daquela hunt, não os 3,1 s gerais: o respawn muda muito de mapa pra mapa. Hunts em que o pokémon levaria golpes demais por kill ficam fora da tierlist e do Ditto, com o mesmo corte do Simples. Hunts de **NIGHTMARE** (nível 2000 a 3000) levam esse rótulo na lista de hunts do Simples. Na tierlist elas só ganham linha quando são a de maior XP da espécie, o que hoje não acontece: o jogo paga menos XP nelas do que em Orre.
-
-## ✨ Ditto (Opções, logo abaixo da Tierlist)
-
-Onde caçar com um Ditto e em que pokémon virar. Escolha **Shiny** ou **Comum**, o **nível do Ditto** e o **nível da conta** (só entram hunts até esse nível; 0 mostra todas). **Meu Ditto…** preenche com um Ditto que esteja no time de uma conta ligada. Qualidade e IV não se escolhem: no jogo eles são fixos e iguais pra todo Ditto (comum 1.4 e 89, shiny 2.0 e 119), e o app usa esses.
-
-**Por hunt** é o ranking das hunts, cada uma com a melhor transformação pra ela; **Por tipo** é a melhor forma de cada elemento e onde farmar com ela. A nota vai de 0 a 100 (100 = a melhor hunt da lista), com o golpe, a efetividade e a folga, como na tierlist. As regras são as do jogo: o Ditto não copia lendários, Mega, Nightmare, bosses de Orre nem Outland; o Shiny só vira espécie com forma shiny; nenhum usa TM. Os debuffs também entram na conta: Shiny Ditto -20% de Ataque e Sp. Atk (e -25% de HP e defesas, que não pesam no ranking), comum -25% de Ataque e defesas. A transformação do comum dura 12 h; a do shiny é permanente. Premissa do cálculo: o transformado usa as bases e os golpes da espécie copiada no nível do próprio Ditto.
+O botão **Como calculamos** no topo da janela explica tudo isso, e o tier (S, A, B, C, D) vem da posição: 5% S, 15% A, 25% B, 30% C e o resto D. O cálculo roda em pedaços com a janela aberta, sem travar a tela, e fica guardado até os dados do jogo mudarem.
 
 ## Proteções
 
