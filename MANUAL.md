@@ -8,16 +8,20 @@ Guia curto do que cada coisa faz. Se você só quer resolver um problema pontual
 |---|---|
 | **▶ Logar equipe** | Loga de uma vez, com as senhas salvas, as contas que estão fora do jogo. Conta que já está farmando não sai do jogo, a não ser que você tenha trocado o e-mail ou a senha dela no 👤 Treinadores |
 | **👤 Treinadores** | Cadastra e-mail e senha de cada conta. O 🗑 limpa o formulário; o 🧹 apaga os dados do jogo daquela conta (resolve conta bugada, a senha continua salva) |
-| **⟳ Atualizar tudo** | Recarrega os painéis ligados, ignorando o cache (resolve tela de login velha presa) |
+| **⟳ Atualizar tudo** | Recarrega os painéis ligados, ignorando o cache (resolve tela de login velha presa). Pede confirmação: clique de novo em até 4 segundos (com a tecla **R**, aperte duas vezes) |
 | **📊 Painel** | A barra lateral com os números de uma conta por vez (detalhes abaixo) |
 | **🕹 Cockpit** | Esconde o jogo e mostra só os números das 4 contas. Gasta bem menos do PC |
 | **IV's** | Abre a calculadora de IV. Passe o mouse num pokémon dentro do jogo que ela preenche sozinha |
-| **🏷 Mercado** | Seus anúncios, vendas e ofertas (Pessoal) e o mercado inteiro do jogo, com as vendas deduzidas (Global) |
-| **☰ Opções** | Tudo o mais: Hunt, Meta, Boss/Ginásio, Alertas, Venda protegida, Eco, FAQ... |
+| **🏷 Mercado** | Seus anúncios, vendas e ofertas (Pessoal), o mercado inteiro do jogo com as vendas deduzidas (Global) e a fila de venda (Vender: filtre por raridade, IV, nível, tipo e shiny, marque vários Pokémon, ponha o preço uma vez e anuncie um por um, um clique por anúncio, com a taxa calculada; use com a conta na cidade, o **?** explica por quê) |
+| **☰ Opções** | Tudo o mais: Hunt, Quests, Daily, Meta, Boss/Ginásio, Alertas, Venda protegida, Eco, FAQ... Hunt, Quests e Daily abrem a janela do jogo em todas as contas; se ela já estiver aberta em alguma, fecham em todas |
+
+No cabeçalho de cada painel aparecem selos quando a conta tem **🎁 presente diário** pra pegar ou **📜 quests prontas** pra entregar. Clicar no selo abre a janela só naquela conta.
+
+**Atualização:** a versão nova baixa sozinha em segundo plano e aparece um aviso no canto. Ela só instala quando você clica em **Reiniciar e atualizar**; o app fecha, instala e reabre sozinho. **Depois** guarda o aviso: ele fica ao lado da versão, no topo.
 
 **Esc** fecha o card de IV e tira o painel da tela cheia. Com o foco dentro do jogo, aperte **Esc duas vezes** seguidas: um Esc só fica pro jogo (fechar a bolsa, um diálogo) sem mexer no painel.
 
-Atalhos de teclado (só quando o foco está no app, não dentro do jogo, e com nenhuma janela do app aberta): **H** Hunt, **C** Cockpit, **L** Limpar jogo, **R** Atualizar, **T** Treinadores, **G** Meta, **O** Opções, **M** menu do jogo, **E** Eco, **A** Alertas.
+Atalhos de teclado (só quando o foco está no app, não dentro do jogo, e com nenhuma janela do app aberta): **H** Hunt, **Q** Quests, **D** Daily, **C** Cockpit, **L** Limpar jogo, **R** Atualizar, **T** Treinadores, **G** Meta, **O** Opções, **M** menu do jogo, **E** Eco, **A** Alertas.
 
 ## 📊 Painel: a barra lateral
 
