@@ -12,7 +12,8 @@ Guia curto do que cada coisa faz. Se você só quer resolver um problema pontual
 | **📊 Painel** | A barra lateral com os números de uma conta por vez (detalhes abaixo) |
 | **🕹 Cockpit** | Esconde o jogo e mostra só os números das 4 contas. Gasta bem menos do PC |
 | **IV's** | Abre a calculadora de IV. Passe o mouse num pokémon dentro do jogo que ela preenche sozinha |
-| **☰ Opções** | Tudo o mais: Hunt, Meta, Scripts, Alertas, Venda protegida, Eco, FAQ... |
+| **🏷 Mercado** | Seus anúncios, vendas e ofertas (Pessoal) e o mercado inteiro do jogo, com as vendas deduzidas (Global) |
+| **☰ Opções** | Tudo o mais: Hunt, Meta, Boss/Ginásio, Alertas, Venda protegida, Eco, FAQ... |
 
 **Esc** fecha o card de IV e tira o painel da tela cheia. Com o foco dentro do jogo, aperte **Esc duas vezes** seguidas: um Esc só fica pro jogo (fechar a bolsa, um diálogo) sem mexer no painel.
 
@@ -60,7 +61,7 @@ O botão **Como calculamos** no topo da janela explica tudo isso, e o tier (S, A
 - **🛡 Venda protegida**: pede confirmação antes de vender shiny, qualidade Lendária ou acima e itens raros. Na engrenagem do Painel dá pra travar seus próprios itens (**🔒 Cadeado de venda**)
 - **🔔 Alertas**: avisa quando aparece shiny, uma conta cai, para de farmar, fica sem suprimento ou tem pokémon derrubado. Na engrenagem do Cockpit você escolhe quais tipos avisam no Windows, um por um. Com webhook do Discord configurado, o aviso também chega no celular
 - **⚔️ Luta de boss**: enquanto uma conta luta contra um boss (e até 2 min depois), o aviso de farm parado e o destrava do **↩ Voltar pra hunt** esperam. Mandar a conta de volta pra hunt no meio da luta faria perder a luta
-- **💾 Exportar/Importar config**: leva suas configurações e seu histórico pra outro PC. Scripts e webhook ficam de fora, de propósito. Importar troca o histórico pelo do arquivo e guarda uma cópia do seu antes. O app também salva um backup sozinho toda semana em `%APPDATA%\pokepilot\backups`, a mesma pasta do `hunts-historico.csv` (as hunts que passam das 150 guardadas) e do `hunts-historico-drops.csv`
+- **💾 Exportar/Importar config**: leva suas configurações e seu histórico pra outro PC. O webhook fica de fora, de propósito. Importar troca o histórico pelo do arquivo e guarda uma cópia do seu antes. O app também salva um backup sozinho toda semana em `%APPDATA%\pokepilot\backups`, a mesma pasta do `hunts-historico.csv` (as hunts que passam das 150 guardadas) e do `hunts-historico-drops.csv`
 
 ## Coisas que confundem no começo
 
