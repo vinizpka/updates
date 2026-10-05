@@ -99,9 +99,6 @@ Bug corrigido na **1.5.11**: o painel segurava a atualização enquanto o foco f
 ### Não consigo mudar a pokébola!
 É o "sabonete": o botão **🧼 Limpar jogo** esconde o Auto-Helper do jogo, que é onde fica o seletor de pokébola. Desde a 1.5.13 basta **passar o mouse** no canto onde ele fica que ele aparece; em versões antigas, desligue o 🧼 na barra do topo, troque a bola e ligue de novo.
 
-### Como desabilito um script?
-**Opções → Scripts**, desmarque a caixinha. Desde a 1.5.11 isso recarrega as contas e o script para na hora. Antes: desmarque e clique em **⟳ Atualizar tudo**.
-
 ### Como exporto os logs de hunt?
 **Cockpit → Hoje → "⬇ Hunts (N)"**. Baixa duas planilhas (hunts e drops) que abrem direto no Excel. O app guarda as últimas 150 hunts; as mais antigas ficam em `%APPDATA%\pokepilot\backups\hunts-historico.csv` (e `hunts-historico-drops.csv` pros drops por item).
 
