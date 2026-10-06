@@ -13,7 +13,7 @@ Guia curto do que cada coisa faz. Se você só quer resolver um problema pontual
 | **🕹 Cockpit** | Esconde o jogo e mostra só os números das 4 contas. Gasta bem menos do PC |
 | **IV's** | Abre a calculadora de IV. Passe o mouse num pokémon dentro do jogo que ela preenche sozinha |
 | **🏷 Mercado** | Seus anúncios, vendas e ofertas (Pessoal), o mercado inteiro do jogo com as vendas deduzidas (Global) e a fila de venda (Vender: filtre por raridade, IV, nível, tipo e shiny, marque vários Pokémon, ponha o preço uma vez e anuncie um por um, um clique por anúncio, com a taxa calculada; use com a conta na cidade, o **?** explica por quê) |
-| **☰ Opções** | Tudo o mais: Hunt, Quests, Daily, Meta, Boss/Ginásio, Alertas, Venda protegida, Eco, FAQ... Hunt, Quests e Daily abrem a janela do jogo em todas as contas; se ela já estiver aberta em alguma, fecham em todas |
+| **☰ Opções** | Tudo o mais: Hunt, Quests, Daily, Meta, Boss/Ginásio, Breeding, Alertas, Venda protegida, Eco, FAQ... Hunt, Quests e Daily abrem a janela do jogo em todas as contas; se ela já estiver aberta em alguma, fecham em todas |
 
 No cabeçalho de cada painel aparecem selos quando a conta tem **🎁 presente diário** pra pegar ou **📜 quests prontas** pra entregar. Clicar no selo abre a janela só naquela conta.
 
@@ -38,7 +38,7 @@ Na **engrenagem ⚙** do topo dela você escolhe **quais seções aparecem** e a
 O jogo some e ficam só os números das 4 contas. Serve pra deixar farmando gastando pouco do PC. Minimizar ou mandar pra bandeja faz o mesmo com os jogos sozinho, e ao abrir a janela eles voltam. Seções principais:
 
 - **Hoje**: gold, XP, kills e capturas do dia, com meta e o botão que exporta as planilhas
-- **Hunts**: o ranking. Ordene por **Sugerido** e escolha o atacante em **"caçar com"**. Golpe de TM só entra na conta se aquele pokémon aprendeu o disco. Com Ditto no time, aparece a melhor transformação por elemento, respeitando o que cada Ditto pode copiar (o Shiny só vira espécie com forma shiny) e sem TM, que Ditto não aprende
+- **Hunts**: o ranking. Ordene por **Sugerido** e escolha o atacante em **"caçar com"**: um Pokémon do time, um do **box** de qualquer conta (grupo "Box · conta") ou **✎ Digitar Pokémon…** (espécie, nível, qualidade e IV; nível da conta e bônus vêm da conta escolhida ao lado). O campo **🔎 hunt ou Pokémon** procura em todas as hunts pelo nome (ex.: venusaur), mesmo as ocultas e fora do escopo escolhido. Golpe de TM só entra na conta se aquele pokémon aprendeu o disco. Com Ditto no time, aparece a melhor transformação por elemento, respeitando o que cada Ditto pode copiar (o Shiny só vira espécie com forma shiny) e sem TM, que Ditto não aprende
   - **🎯 Captura**: cada hunt mostra a chance de capturar por arremesso com a bola escolhida no seletor, quantas bolas custa uma captura (em vermelho quando sai mais caro que o valor de venda) e as capturas/h esperadas. A chance é estimada pela curva do piwtools (valor de venda × eficiência da bola), não é a fórmula do jogo, que roda no servidor. Com o Capture Boost ativo ela dobra. O bônus de rank da profissão não entra. Ao lado aparece a taxa **real** que as suas contas mediram com aquela bola naquela espécie, e esse é o número que vale quando existe
   - **⏳ Respawn e overkill**: nas hunts que você já mediu, a linha mostra a espera por kill fora do combate (andar até o próximo, esperar nascer). Ela muda muito de mapa pra mapa e entra no kills/h e XP/h estimados no lugar do valor único. **⏳ overkill** quer dizer que você mata em ~1 golpe e passa mais tempo esperando o próximo nascer do que batendo: subir de nível não acelera nada ali, e uma hunt mais forte rende mais. O mesmo ⏳ aparece na tabela por conta, ao lado da hunt atual
   - **Aba Hunts**: o ranking ocupa a tela toda, em colunas alinhadas (hunt com nível e região, efetividade, gold/h, XP/h, kills/h e chance de captura), com os seletores numa barra no topo. No **Sugerido** com a Rota de up ligada, a rota aparece numa coluna à direita, como uma linha do tempo: um ponto por faixa de nível, a hunt, do nível tal ao tal, XP/h, tempo e o total embaixo. Na aba **Tudo** a seção continua no formato compacto
@@ -60,6 +60,14 @@ Ranking de todas as espécies base do jogo, todas no nível escolhido (o padrão
 - **Seu Pokémon**: escolha um Pokémon do seu time (vem com o nível, a qualidade, o IV e os TMs reais) ou digite qualquer espécie: a lista mostra as melhores hunts pra ele até o nível da conta. Com **Ditto** (comum ou shiny), cada hunt vem com a melhor forma pra virar, respeitando o que o jogo deixa o Ditto copiar.
 
 O botão **Como calculamos** no topo da janela explica tudo isso, e o tier (S, A, B, C, D) vem da posição: 5% S, 15% A, 25% B, 30% C e o resto D. O cálculo roda em pedaços com a janela aberta, sem travar a tela, e fica guardado até os dados do jogo mudarem.
+
+## 🥚 Breeding (Opções)
+
+Quantos breeds até a qualidade que você quer e quanto vai custar. Escolha a conta e clique no Pokémon do box (ou digite a qualidade), diga a qualidade dos parceiros que você captura pra cruzar e a meta (1,7 · 1,8 · 2,0 · 2,5 ou qualquer valor). Regras do jogo: mesma espécie, diferença de qualidade de até 0,15 entre os pais, filho = melhor pai + Δ. Com feromônio o Δ é +0,15 (50%), +0,20 (30%), +0,25 (15%) ou +0,30 (5%); no Grátis é uns 20× menor. O filho herda o IV do pai de maior qualidade.
+
+- **Preços**: fee por breed (2 KK), cada stone com quantidade × preço, feromônios por breed × preço e, se você compra os parceiros, o preço de cada um. O preço é seu: o mercado muda. Com o Mercado > Global aberto na sessão aparece a média ao lado, com o botão **usar**. Pokémon de 2 tipos pode pedir 2 stones (**+ stone**).
+- **Cotação do jogo**: ao escolher 2 pais no Centro de Breeding do jogo, o app lê a cotação que o jogo mostra (fee, stones, feromônios, teto e chances de Δ) e usa no cálculo. Ele só lê: nunca cria ovo nem pede nada sozinho.
+- **Resultado**: a conta sorteia 3.000 vezes como o jogo e mostra **Sorte** (os 10% melhores), **Típico** e **Azar** (os 10% piores): breeds, Pokémon consumidos, fee, stones, feromônios, **investimento total** e **tempo pra chocar** (3.000 derrotas por ovo, 2 slots, pelo kills/h da conta). Embaixo, as chances de um breed só com as qualidades escolhidas.
 
 ## Proteções
 
