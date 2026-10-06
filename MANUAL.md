@@ -17,7 +17,7 @@ Guia curto do que cada coisa faz. Se você só quer resolver um problema pontual
 
 No cabeçalho de cada painel aparecem selos quando a conta tem **🎁 presente diário** pra pegar ou **📜 quests prontas** pra entregar. Clicar no selo abre a janela só naquela conta.
 
-**Atualização:** a versão nova baixa sozinha em segundo plano e aparece um aviso no canto. Ela só instala quando você clica em **Reiniciar e atualizar**; o app fecha, instala e reabre sozinho. **Depois** guarda o aviso: ele fica ao lado da versão, no topo.
+**Atualização:** a versão nova baixa sozinha em segundo plano e aparece um aviso no canto. Ela só instala quando você clica em **Reiniciar e atualizar**; o app fecha, instala e reabre sozinho. **Depois** guarda o aviso: ele fica ao lado da versão, no topo. Pra procurar na hora, use **☰ Opções > 🔄 Verificar atualização** ou clique na versão do topo: o botão mostra se você já tem a mais nova ou começa a baixar a nova.
 
 **Esc** fecha o card de IV e tira o painel da tela cheia. Com o foco dentro do jogo, aperte **Esc duas vezes** seguidas: um Esc só fica pro jogo (fechar a bolsa, um diálogo) sem mexer no painel.
 
@@ -63,11 +63,11 @@ O botão **Como calculamos** no topo da janela explica tudo isso, e o tier (S, A
 
 ## 🥚 Breeding (Opções)
 
-Quantos breeds até a qualidade que você quer e quanto vai custar. Escolha a conta e clique no Pokémon do box (ou digite a qualidade), diga a qualidade dos parceiros que você captura pra cruzar e a meta (1,7 · 1,8 · 2,0 · 2,5 ou qualquer valor). Regras do jogo: mesma espécie, diferença de qualidade de até 0,15 entre os pais, filho = melhor pai + Δ. Com feromônio o Δ é +0,15 (50%), +0,20 (30%), +0,25 (15%) ou +0,30 (5%); no Grátis é uns 20× menor. O filho herda o IV do pai de maior qualidade.
+Quantos breeds até a qualidade que você quer e quanto vai custar. Digite a qualidade do Pokémon que vai subir (ex.: 1,274) e a meta (1,7 · 1,8 · 2,0 · 2,5 ou qualquer valor) e clique em **Calcular** (ou Enter); nada recalcula enquanto você digita. A espécie não muda a conta. Cada breed usa o parceiro mais fraco que o jogo aceita (sua qualidade − 0,15): o filho = melhor pai + Δ, então parceiro melhor não ajuda. Com feromônio o Δ é +0,15 (50%), +0,20 (30%), +0,25 (15%) ou +0,30 (5%); no Grátis é uns 20× menor. O filho herda o IV do pai de maior qualidade.
 
 - **Preços**: fee por breed (2 KK), cada stone com quantidade × preço, feromônios por breed × preço e, se você compra os parceiros, o preço de cada um. O preço é seu: o mercado muda. Com o Mercado > Global aberto na sessão aparece a média ao lado, com o botão **usar**. Pokémon de 2 tipos pode pedir 2 stones (**+ stone**).
 - **Cotação do jogo**: ao escolher 2 pais no Centro de Breeding do jogo, o app lê a cotação que o jogo mostra (fee, stones, feromônios, teto e chances de Δ) e usa no cálculo. Ele só lê: nunca cria ovo nem pede nada sozinho.
-- **Resultado**: a conta sorteia 3.000 vezes como o jogo e mostra **Sorte** (os 10% melhores), **Típico** e **Azar** (os 10% piores): breeds, Pokémon consumidos, fee, stones, feromônios, **investimento total** e **tempo pra chocar** (3.000 derrotas por ovo, 2 slots, pelo kills/h da conta). Embaixo, as chances de um breed só com as qualidades escolhidas.
+- **Resultado**: uma frase com o normal (breeds, total e tempo chocando), a tabela **Com sorte** (10% melhores), **Normal** e **Com azar** (10% piores) com breeds (= parceiros gastos), fee, stones, feromônios e total, o pior caso possível e o **passo a passo** de uma rodada normal (de quanto pra quanto e a qualidade mínima do parceiro em cada breed). Tempo: 3.000 derrotas por ovo, um de cada vez (o filho é o pai do próximo), pelo kills/h da conta.
 
 ## Proteções
 
