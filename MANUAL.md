@@ -13,7 +13,7 @@ Guia curto do que cada coisa faz. Se você só quer resolver um problema pontual
 | **🕹 Cockpit** | Esconde o jogo e mostra só os números das 4 contas. Gasta bem menos do PC |
 | **IV's** | Abre a calculadora de IV. Passe o mouse num pokémon dentro do jogo que ela preenche sozinha |
 | **🏷 Mercado** | Seus anúncios, vendas e ofertas (Pessoal), o mercado inteiro do jogo com as vendas deduzidas (Global) e a fila de venda (Vender: filtre por raridade, IV, nível, tipo e shiny, marque vários Pokémon, ponha o preço uma vez e anuncie um por um, um clique por anúncio, com a taxa calculada; use com a conta na cidade, o **?** explica por quê) |
-| **☰ Opções** | Tudo o mais: Hunt, Quests, Daily, Meta, Boss/Ginásio, Breeding, Alertas, Venda protegida, Eco, FAQ... Hunt, Quests e Daily abrem a janela do jogo em todas as contas; se ela já estiver aberta em alguma, fecham em todas |
+| **☰ Opções** | Tudo o mais: Hunt, Quests, Daily, Meta, Boss/Ginásio, Breeding, Scripts, Alertas, Venda protegida, Eco, FAQ... Hunt, Quests e Daily abrem a janela do jogo em todas as contas; se ela já estiver aberta em alguma, fecham em todas |
 
 No cabeçalho de cada painel aparecem selos quando a conta tem **🎁 presente diário** pra pegar ou **📜 quests prontas** pra entregar. Clicar no selo abre a janela só naquela conta.
 
@@ -60,6 +60,13 @@ Ranking de todas as espécies base do jogo, todas no nível escolhido (o padrão
 - **Seu Pokémon**: escolha um Pokémon do seu time (vem com o nível, a qualidade, o IV e os TMs reais) ou digite qualquer espécie: a lista mostra as melhores hunts pra ele até o nível da conta. Com **Ditto** (comum ou shiny), cada hunt vem com a melhor forma pra virar, respeitando o que o jogo deixa o Ditto copiar.
 
 O botão **Como calculamos** no topo da janela explica tudo isso, e o tier (S, A, B, C, D) vem da posição: 5% S, 15% A, 25% B, 30% C e o resto D. O cálculo roda em pedaços com a janela aberta, sem travar a tela, e fica guardado até os dados do jogo mudarem.
+
+## 🧩 Scripts (Opções)
+
+Userscripts (estilo Tampermonkey) rodando dentro de cada painel do jogo. Marque pra ligar, desmarque pra desligar (desligar recarrega os painéis, e o jogo larga as contas na cidade). Nunca rodam na tela de login.
+
+- **Esconder Pokémon anunciados** (vem com o app, desligado): o jogo mostra no box (breed, transferir, vender) os Pokémon que já estão à venda no mercado. Ligado, eles somem dessas telas. Usa os anúncios da última leitura do **🏷 Mercado**, então precisa de VIP e de a conta ter passado pela cidade. Quando o jogo corrigir, desligue.
+- **Os seus**: cole o código, solte um arquivo `.user.js` na janela ou cole o link do arquivo no GitHub. Só instale scripts em que você confia: eles têm acesso total à página do jogo.
 
 ## 🥚 Breeding (Opções)
 
