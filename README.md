@@ -8,7 +8,6 @@ Rode até 4 contas de Poke Idle World numa janela só, com painel, rota de up e 
 
 - O app instala sozinho (sem perguntar pasta) e cria o atalho na Área de trabalho.
 - **Atualiza sozinho:** quando sai versão nova ele baixa em segundo plano e instala quando você fecha o app.
-- Vindo do PokeGrid? Feche o PokeGrid (inclusive o ícone perto do relógio) antes de abrir o PokePilot pela primeira vez: ele traz suas contas e configurações.
 
 ### "O Windows protegeu o computador" (SmartScreen)
 
